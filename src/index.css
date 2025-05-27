@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-bg text-neutral-txt;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+a {
+  @apply text-neutral-3 underline hover:text-white;
+}
