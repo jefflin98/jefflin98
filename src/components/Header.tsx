@@ -3,10 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
-  { to: "/resume", label: "Resume" },
-  { to: "/projects", label: "Projects" },
-  { to: "/blog", label: "Blog" },
-  { to: "/contact", label: "Contact" },
+  { to: "/work", label: "Work" },
 ];
 
 export default function Header() {

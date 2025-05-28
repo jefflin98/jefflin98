@@ -1,4 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -6,12 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'neutral-bg': '#18181b',
-        'neutral-1': '#27272a',
-        'neutral-2': '#3f3f46',
-        'neutral-3': '#a1a1aa',
-        'neutral-txt': '#f4f4f5'
-      }
+        accent: '#6EE7B7', // Soft teal accent
+        bg: '#18181B',     // Almost-black background
+        fg: '#F4F4F5',     // Off-white for text
+        muted: '#A1A1AA',  // Muted gray for secondary text
+      },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+      },
     },
   },
   plugins: [],
