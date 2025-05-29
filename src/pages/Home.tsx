@@ -7,7 +7,7 @@ export default function Home() {
     <section className="max-w-4xl mx-auto pt-10 px-10 flex-col justify-center min-h-screen">
       <h1 className="text-5xl md:text-7xl font-bold text-fg mb-6">Jeff Lin</h1>
       <p className="text-lg text-muted mb-4">
-        Software Engineer · HCI Researcher · Seattle, WA 
+        Software Development Engineer · HCI Researcher · Seattle, WA 
       </p>
 
       <p className="text-lg text-muted mb-8">
